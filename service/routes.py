@@ -9,3 +9,7 @@ db.init_app(app)
 @app.route("/")
 def home():
     return jsonify({"message": "API Running"})
+
+if __name__ == "__main__":
+    print("SERVICERUNNING on port 8000")
+    app.run(host="0.0.0.0", port=8000)
