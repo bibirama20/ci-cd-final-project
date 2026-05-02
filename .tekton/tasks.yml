@@ -19,5 +19,5 @@ spec:
     - name: test
       image: python:3.8
       script: |
-        pip install pytest
-        pytest
+        pip install nose
+        nosetests
