@@ -16,4 +16,3 @@ class Product(db.Model):
             "category": self.category,
             "available": self.available
         }
-    
